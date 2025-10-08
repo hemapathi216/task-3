@@ -1,0 +1,59 @@
+#LIST
+veg = ["potato", "carrot"]
+veg.append("tomato")
+print(veg)   
+veg= ["potato", "carrort"]
+veg.extend(["tomato", "beans"])
+print(veg)   
+veg= ["potato", "carrort"]
+veg.insert( 1,"tomato")
+print(veg)   
+veg= ["potato", "carrot", "tomato"]
+veg.remove("potato")
+print(veg)   
+veg = ["potato", "carrot"]
+veg.clear()
+print(veg)   
+
+
+#TUPULE
+my_tuple = (1, 2, 3, 2, 4, 2)
+print(my_tuple.count(2))
+my_tuple = ('a', 'b', 'c', 'd')
+print(my_tuple.index('c'))  
+
+#SET
+my_set = {10,20,30}
+my_set.add(40)
+print(my_set)
+my_set = {1, 2}
+my_set.update([3, 4], {5, 6})
+print(my_set)  
+my_set = {1, 2, 3}
+my_set.remove(2)
+print(my_set)  
+my_set = {1, 2, 3}
+my_set.clear()
+print(my_set)  
+my_set = {10, 20, 30}
+value = my_set.pop()
+print(value)    
+print(my_set)   
+
+#DICT
+student = {"name": "Meera", "age": 21}
+print(student.get("name"))         
+print(student.get("grade"))        
+student = {"name": "Meera", "age": 21}
+print(student.keys())              
+student = {"name": "Meera", "age": 21}
+print(student.values())            
+student = {"name": "Meera", "age": 21}
+print(student.items())             
+student = {"name": "Meera", "age": 21}
+student.update({"age": 22, "grade": "A"})
+print(student)                     
+
+
+
+
